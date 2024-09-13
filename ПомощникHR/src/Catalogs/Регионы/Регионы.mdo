@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="debe0f35-99b1-4c65-9945-3cdcfc950a02">
+  <producedTypes>
+    <objectType typeId="b201b3c2-2d6d-4c4c-94e2-9d7a926e2da4" valueTypeId="f527c53e-f94f-4e47-a3b9-2867ea9a724d"/>
+    <refType typeId="ee96c153-5f02-4852-8fb9-85c76efa13d3" valueTypeId="b05c2e00-b3b7-43d7-817a-bdc7223e3472"/>
+    <selectionType typeId="6a1ed550-0be2-4e45-908e-688e3c69ccd8" valueTypeId="5de019d3-a9cc-4f5a-b4e5-8fdd02b2070e"/>
+    <listType typeId="1762a2f1-cc36-43b9-9b30-4dab03b7bddc" valueTypeId="104769a9-7461-410d-9b36-94732cd45f62"/>
+    <managerType typeId="c0f5ef76-7f16-419f-bd28-5fb9ef26e4a0" valueTypeId="0c41a017-0764-437c-9fc3-5065781a823e"/>
+  </producedTypes>
+  <name>Регионы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регионы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Регионы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Регионы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3a80013e-f7f9-41b7-99f3-9f1dd2a95b13">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

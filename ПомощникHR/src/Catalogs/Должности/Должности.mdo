@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe0e24f3-b1fa-4720-980e-0dc6e9e82e57">
+  <producedTypes>
+    <objectType typeId="043d1dab-648c-4565-962d-371e08b75d75" valueTypeId="10153c74-8c0e-40fa-8c72-efd8edcf7603"/>
+    <refType typeId="91926301-5123-4128-b952-c47aac10bd6c" valueTypeId="5f9f0721-6d28-4ca9-b823-ea9022a14137"/>
+    <selectionType typeId="67f84805-8851-44f1-9499-b33f9370162c" valueTypeId="21cfb1ad-2601-4efd-bc1d-46df6bf00c19"/>
+    <listType typeId="1ce2af18-5ddf-4186-8d0e-212e120a292f" valueTypeId="f1f2aad7-22e7-4d36-8bc5-eb2fd784b294"/>
+    <managerType typeId="bc33e9fa-12d8-4591-9a99-1fcf55724b0e" valueTypeId="d19d296c-7e82-48e3-8d69-83be1ef7b2fb"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Должности.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1dfe892c-b406-4148-b9c0-4d68a2ac8b94">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25abbf5b-6284-4a44-a36c-82afbd0334ac">
+    <name>АльтернативныеНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Альтернативные наименования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8eaa202b-07fc-4167-bd60-611f024efc77">
+    <producedTypes>
+      <objectType typeId="ce2e8bf5-6a9f-4e71-8166-a01715d5c39a" valueTypeId="07393fa2-9fdc-49c1-814e-0a550a662578"/>
+      <rowType typeId="22342ee9-e408-4632-9ffd-766dcc774f9e" valueTypeId="6c070403-22e0-4bae-81bd-fe9f36053689"/>
+    </producedTypes>
+    <name>Характеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристики</value>
+    </synonym>
+    <attributes uuid="c8b215ce-ccf1-4cf8-b163-81ce08fe25b0">
+      <name>Характеристика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиДолжностей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="71804304-717e-46cc-8738-d50461a10573">
+    <producedTypes>
+      <objectType typeId="897631b6-64da-4062-9afd-8d907f07c32f" valueTypeId="b163a615-c355-440a-a1fb-d247498732af"/>
+      <rowType typeId="dfff0e85-981a-48e3-835d-bef4c7eadeac" valueTypeId="16abe25f-ca2a-44c9-9e48-7ae6d06b7144"/>
+    </producedTypes>
+    <name>КлючевыеНавыки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые навыки</value>
+    </synonym>
+    <attributes uuid="04c4dbf6-4152-4f0b-a27b-536a9bb57d43">
+      <name>Навык</name>
+      <synonym>
+        <key>ru</key>
+        <value>Навык</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КлючевыеНавыкиДолжности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f1bf191d-5057-4ea7-b31b-1d761260723d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4be3291c-7d24-4fcc-a31c-faf56c96d9db">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="204dc39b-6040-4359-82b7-5a47c38a81d8">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="34b2ff8c-dcb5-4e42-9fe2-6caedb82ea55"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="abdd1f5a-9a53-4832-99ab-6dd907f4fbef"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="84c5c06d-1e98-4c43-854e-55182443f48d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ebb72c9e-9a7b-428a-ae70-70e5399b1f98"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1678c80f-f1dd-417e-ad27-f7920afd2e08"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7d1cc3b1-0b44-45ba-b1a4-f95eb3e2533a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bb92017b-50f3-4cb8-bb85-a8534d899565"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="bae59535-fb83-4c5e-8f11-e556c29c0226">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.КлючевыеНавыкиДолжности</catalogs>
+  <catalogs>Catalog.Работодатели</catalogs>
+  <catalogs>Catalog.Регионы</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.ФункциональныеОбязанности</catalogs>
+  <catalogs>Catalog.ХарактеристикиДолжностей</catalogs>
+  <documents>Document.Вакансии</documents>
+  <enums>Enum.ТипыОкладов</enums>
+  <enums>Enum.ТипыХарактеристик</enums>
+  <reports>Report.АнализВакансий</reports>
+</mdclass:Configuration>

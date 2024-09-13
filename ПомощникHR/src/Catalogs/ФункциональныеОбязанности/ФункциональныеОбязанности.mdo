@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3396d5b-75fb-4033-bf88-f37ca3523102">
+  <producedTypes>
+    <objectType typeId="336a9fe6-e295-4d8a-bb6d-1dca79782351" valueTypeId="c12ae37d-b204-44f7-a861-c740c8793301"/>
+    <refType typeId="2f4ca20b-7a2c-434b-b325-ba2dfe2d65c3" valueTypeId="fc29f453-6db7-496d-b585-bf5340eb9f8b"/>
+    <selectionType typeId="fe4212ce-44cf-441c-a07e-d8df46d7f065" valueTypeId="c7ff8f03-7a99-4ca9-a6e4-22613710cbdf"/>
+    <listType typeId="be03d941-48b4-4fef-8695-aac7cc885be3" valueTypeId="a6806b92-547d-4fed-803e-3ab26581c988"/>
+    <managerType typeId="a224e016-9bca-4910-961c-0e46d05021ed" valueTypeId="7eec516d-e4fb-48b3-812b-ff43f6ab061f"/>
+  </producedTypes>
+  <name>ФункциональныеОбязанности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональные обязанности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФункциональныеОбязанности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Функциональная обязанность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Должности</owners>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

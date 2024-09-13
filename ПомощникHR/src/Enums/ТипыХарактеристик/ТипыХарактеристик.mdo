@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f18a2578-bc6b-49b4-b98a-6f46f866d316">
+  <producedTypes>
+    <refType typeId="ae52e02f-59a0-4494-8d37-3199f349fe9c" valueTypeId="486391e0-55fb-4f98-bcac-e202f3840484"/>
+    <listType typeId="e0d78db2-9a43-43fb-be0b-8260c7ea58b3" valueTypeId="a805ab22-1b3b-4b78-93da-cdbf5b0db312"/>
+    <managerType typeId="ecfbf82f-ba68-4a44-b378-b1679e6567e5" valueTypeId="e87147f5-848d-479a-952e-c954b036dbb7"/>
+  </producedTypes>
+  <name>ТипыХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы характеристик</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e4c69261-097d-437c-9cf3-9e46a0df57f5">
+    <name>Профессиональный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессиональный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd12e129-ca40-4373-acd4-2b1e555b3e8f">
+    <name>Личный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

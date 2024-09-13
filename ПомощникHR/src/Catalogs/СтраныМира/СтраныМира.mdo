@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4a988a2-76b5-4d20-87b1-0d815a0ee90c">
+  <producedTypes>
+    <objectType typeId="b9c4a6d3-1807-4d34-bb67-54bd3c8075b4" valueTypeId="7545e76a-6594-4e33-90e9-fff0b3022a06"/>
+    <refType typeId="29884295-fb6a-480e-b10a-1cd1b0de5fec" valueTypeId="440a4f12-4144-400b-a93b-c26c6d29d9a5"/>
+    <selectionType typeId="bd14e6ea-bc52-4092-bfed-a54830e67752" valueTypeId="62b76b5b-8b25-4de5-bfbf-0d466f72d888"/>
+    <listType typeId="a59963c6-183b-4c6d-822f-384b6b04f66c" valueTypeId="db010a0e-a089-4a0b-bc99-adcf5e76745e"/>
+    <managerType typeId="316c058b-ca05-47f8-b385-3af1e541b432" valueTypeId="a89ea4cc-bcda-49c6-a5b3-9b35d8a6c411"/>
+  </producedTypes>
+  <name>СтраныМира</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страны мира</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтраныМира.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтраныМира.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

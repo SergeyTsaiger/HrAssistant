@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33069ad5-43bd-4766-a995-062d1596f951">
+  <producedTypes>
+    <refType typeId="bee71965-8751-4837-8a4b-b494103cbba1" valueTypeId="fb5b23b1-51ed-496b-8368-2be3e98003ce"/>
+    <listType typeId="444ea530-4999-488c-953d-659abaae5a53" valueTypeId="3f939fe3-fc04-4244-8b33-6fa43bb2fffa"/>
+    <managerType typeId="9f897750-41a8-4acb-8710-a31d4ab9d897" valueTypeId="551a7a2f-6b0b-485a-8203-af8431c9ee19"/>
+  </producedTypes>
+  <name>ТипыОкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы окладов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9c760c36-b1d5-44e3-b90c-4f64f4cbb855">
+    <name>Gross</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gross</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c982411-10d7-4e48-8a35-e4034053b798">
+    <name>Net</name>
+    <synonym>
+      <key>ru</key>
+      <value>Net</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
